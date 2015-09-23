@@ -25,16 +25,16 @@
        		{{home-ventures model=model appreciate-action='appreciate'}}
    		{{/if}}
 </div>
+{{#unless App.user_profile}}  
 <div class="row">
 	<img src="http://cdn.app.stage.goverb.com/VentureModel/9d45ccf4-791c-bfe4-8519-692be63a9e0f/Screen_Shot_2015-09-21_at_8.58.30_AM_text.png">
 </div>
+{{/unless}}
 
-<!-- {{#if App.user_profile}}
+{{#if App.user_profile}}
    <button class="btn btn-primary" {{action 'register_venture'}}>Start Registration</button>
- {{/if}} -->
-<!-- {{#if !App.user_profile}}
-<img src="http://cdn.app.stage.goverb.com/VentureModel/9d45ccf4-791c-bfe4-8519-692be63a9e0f/Screen_Shot_2015-09-21_at_8.58.30_AM_text.png">
- {{/if}} -->
+ {{/if}}
+
 
 <div class="home-feature home-grid home-lite-grey">
 
