@@ -1,47 +1,42 @@
 <div class="home-font-family">
-<div class="row home-lite-grey">
-	<h2 class="col-md-10 col-md-offset-1" style="text-align: center;"><br><strong>Launching Summer 2016</strong><br><br></h2>
-</div>
-<div class="row home-white">
-	<div class="col-md-offset-1 col-md-5 col-xs-10 col-xs-offset-1  home-media-intro">
-		<h3 style="text-align: left;"><strong>This is a huge opportunity to solve one of the world&#8217;s most wicked water problems</strong></h3>
-		<h5 style="text-align: left;">The Everglades Foundation is dedicating six years and $10 million dollars to showing the world just how serious phosphorus water pollution is. There&#8217;s a solution out there. Find it. Share it.
-		</h5>
+	<div class="row home-lite-grey">
+		<h2 class="col-md-10 col-md-offset-1" style="text-align: center;"><br><strong>Launching Summer 2016</strong><br><br></h2>
 	</div>
-	<div class="col-md-6 col-xs-12">
-		<div class="embed-container">
-			<iframe src="https://player.vimeo.com/video/74750659" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
-			</iframe>
+	<div class="row home-white">
+		<div class="col-md-offset-1 col-md-5 col-xs-10 col-xs-offset-1 home-media-intro">
+			<h3 style="text-align: left;"><strong>This is a huge opportunity to solve one of the world’s most wicked water problems</strong></h3>
+			<h5 style="text-align: left;">The Everglades Foundation is dedicating six years and $10 million dollars to showing the world just how serious phosphorus water pollution is. There’s a solution out there. Find it. Share it.
+			</h5>
+		</div>
+		<div class="col-md-6 col-xs-12">
+			<div class="embed-container">
+				<iframe src="https://player.vimeo.com/video/74750659" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
+				</iframe>
+			</div>
 		</div>
 	</div>
-</div>
-<div class="row home-lite-grey">
-	<div class="col-md-10 col-md-offset-1">
-		<h2 style="text-align: center;margin-bottom:0;margin-top:0;"><br></h2>
-		<h2 style="text-align: center;margin-bottom:0;margin-top:0;">We&#8217;re bringing great minds together to clean up the worlds water
-		</h2>
-	</div>
-	{{#if model.isLoaded}}
+	<div class="row home-lite-grey">
+		<div class="col-md-10 col-md-offset-1">
+			<h2 style="text-align: center;margin-bottom:0;margin-top:0;"><br></h2>
+			<h2 style="text-align: center;margin-bottom:0;margin-top:0;">We’re bringing great minds together to clean up the worlds water
+			</h2>
+		</div>
+		{{#if model.isLoaded}}
        	{{home-ventures model=model appreciate-action='appreciate'}}
    	{{/if}}
-</div>
-{{#unless App.user_profile}}  
-<div class="row">
-	<img src="http://cdn.app.stage.goverb.com/VentureModel/9d45ccf4-791c-bfe4-8519-692be63a9e0f/Screen_Shot_2015-09-21_at_8.58.30_AM_text.png">
-</div>
-{{/unless}}
-
+	</div>
+	{{#unless App.user_profile}}
+	<div class="row">
+		<img src="http://cdn.app.stage.goverb.com/VentureModel/9d45ccf4-791c-bfe4-8519-692be63a9e0f/Screen_Shot_2015-09-21_at_8.58.30_AM_text.png">
+	</div>
+	{{/unless}}
 {{#if App.user_profile}}
-   <button class="btn btn-primary" {{action 'register_venture'}}>Start Registration</button>
- {{/if}}
-
-
-
-
-<div class="home-grid home-white">
+	<button class="btn btn-primary" {{action="" 'register_venture'}}="">Start Registration</button>
+	{{/if}}
+	<div class="home-grid home-white">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 col-md-offset-3"   style="text-align: center;">
+				<div class="col-md-6 col-md-offset-3" style="text-align: center;">
 					<br><br>
 					<h2><strong>Passion begets innovation.</strong></h2>
 					<p>
@@ -94,5 +89,92 @@
 	</div>
 	<div class="row">
 		<img src="http://cdn.app.stage.goverb.com/VentureModel/da31fe4d-3b48-d6a4-6167-a8348c2b6dea/Screen_Shot_2015-09-21_at_11.07.59_AM_text.png">
+	</div>
+	<div class="home-feature home-people">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>We are a community of passionate innovators fighting phosphorus</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+					</p>
+					<div class="jcarousel-wrapper">
+						<div class="jcarousel" data-jcarousel="true">
+							<ul style="left: -288px; top: 0px;">
+								<li style="width: 114px; margin: 15px;">
+								<div class="member">
+									<img src="http://fillmurray.com/350/350" alt="">
+									<strong>Sarah Covey</strong><br>
+									<em>Director Account Management</em><br>
+									Voice Impressions
+								</div>
+								</li>
+								<li style="width: 114px; margin: 15px;">
+								<div class="member">
+									<img src="http://fillmurray.com/400/400" alt="">
+									<strong>Sam Zavieh</strong><br>
+									<em>Founder</em><br>
+									Bards Cards LLC
+								</div>
+								</li>
+								<li style="width: 114px; margin: 15px;">
+								<div class="member">
+									<img src="http://fillmurray.com/300/300" alt="">
+									<strong>Laura Broderick</strong><br>
+									<em>COO</em><br>
+									DirtyDiana Ventures
+								</div>
+								</li>
+								<li style="width: 114px; margin: 15px;">
+								<div class="member">
+									<img src="http://fillmurray.com/350/350" alt="">
+									<strong>Sarah Covey</strong><br>
+									<em>Director Account Management</em><br>
+									Voice Impressions
+								</div>
+								</li>
+								<li style="width: 114px; margin: 15px;">
+								<div class="member">
+									<img src="http://fillmurray.com/400/400" alt="">
+									<strong>Sam Zavieh</strong><br>
+									<em>Founder</em><br>
+									Bards Cards LLC
+								</div>
+								</li>
+								<li style="width: 114px; margin: 15px;">
+								<div class="member">
+									<img src="http://fillmurray.com/300/300" alt="">
+									<strong>Laura Broderick</strong><br>
+									<em>COO</em><br>
+									DirtyDiana Ventures
+								</div>
+								</li>
+							</ul>
+						</div>
+						<a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="9px" height="15.3px" viewbox="0 0 9 15.3" enable-background="new 0 0 9 15.3" xml:space="preserve" class="injected-svg svg">
+						<g>
+						<g>
+						<g>
+						<polygon fill="#FFFFFF" points="7.6,15.3 0,7.6 7.6,0 9,1.4 2.8,7.6 9,13.8 "></polygon>
+						</g>
+						</g>
+						</g>
+						</svg></a>
+						<a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="9px" height="15.3px" viewbox="0 0 9 15.3" enable-background="new 0 0 9 15.3" xml:space="preserve" class="injected-svg svg">
+						<g>
+						<g>
+						<g>
+						<polygon fill="#FFFFFF" points="1.4,15.3 9,7.6 1.4,0 0,1.4 6.2,7.6 0,13.8 "></polygon>
+						</g>
+						</g>
+						</g>
+						</svg></a>
+						<p class="jcarousel-pagination" data-jcarouselpagination="true"><a href="#1" class="active">1</a><a href="#2">2</a><a href="#3">3</a><a href="#4">4</a><a href="#5">5</a><a href="#6">6</a>
+						</p>
+					</div>
+					<a class="btn btn-default">View All</a>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
