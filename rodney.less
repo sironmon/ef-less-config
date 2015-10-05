@@ -1,33 +1,81 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans');
-
-@verb-background-color: #000; // Appears 47 times
-@verb-primary-color: #ffffff ; // Appears 47 times
-@verb-secondary-color: #333333 ; // Appears 13 times
+@verb-body-background-color: #FFFFFF ; 
+@verb-background-color: #666666 ; 
+@verb-primary-color: #000000 ; 
+@verb-primary-color-hover: #333333 ; 
+@verb-secondary-color: #aaa;
 
 @verb-font-family: open sans;
 @verb-font-weight: 400; 
 @verb-font-size: 14px;
-@verb-font-color: @verb-primary-color;
+@verb-font-color: #000;
+@verb-font-color-hover: @verb-primary-color-hover;
 
 @verb-font-family-condensed:  open sans condensed;
 @verb-font-weight-condensed: @verb-font-weight; 
 @verb-font-size-condensed: @verb-font-size;
+@verb-font-color-condensed: @verb-primary-color;
+
+@verb-font-accent-family:  playball;
+@verb-font-accent-weight: @verb-font-weight; 
+@verb-font-accent-size: @verb-font-size;
+@verb-font-accent-color: @verb-primary-color;
 
 @verb-header-hero-opacity: 0.75;
 
+@verb-header-background-color: @verb-background-color;
+@verb-header-background-image: url(/templates/verb/img/header.jpg);
+@verb-header-background-opacity: 1;
+
+@verb-footer-background-color: #111;
+@verb-footer-font-color: #FFF;
+@verb-footer-font-color-hover: @verb-font-color-hover;
+
+
 @verb-home-feature-background-color: @verb-secondary-color;
 
-@verb-home-feature-h1-font-color: #ffFFff ;
+@verb-home-feature-h1-font-color: @verb-primary-color;
 @verb-home-feature-h1-font-weight: @verb-font-weight;
 @verb-home-feature-h1-font-family: @verb-font-family;
 @verb-home-feature-h1-font-size: @verb-font-size;
 
-@verb-home-feature-h3-font-color: #ffFFff ;
+@verb-home-feature-h3-font-color: @verb-primary-color;
 @verb-home-feature-h3-font-weight: @verb-font-weight;
 @verb-home-feature-h3-font-family: @verb-font-family;
 @verb-home-feature-h3-font-size: @verb-font-size;
 
-@verb-home-feature-font-color: #ffFFff ;
+@verb-home-feature-font-color: @verb-primary-color;
 @verb-home-feature-font-weight: @verb-font-weight;
 @verb-home-feature-font-family: @verb-font-family;
 @verb-home-feature-font-size: @verb-font-size;
+
+@verb-home-signup-background-image: url(/templates/verb/img/back-signup.jpg);
+@verb-home-signup-input-background: rgba(255,255,255,.7);
+@verb-home-signup-input-background-addon: @verb-home-signup-input-background;
+
+@verb-home-register-background-image: url(/templates/verb/img/back-signup.jpg);
+@verb-home-register-input-background: rgba(255,255,255,.7);
+@verb-home-register-input-background-addon: @verb-home-signup-input-background;
+
+@verb-venture-reg-header-banner-image: url(/templates/verb/img/kitten.jpg);
+
+@verb-page-font-family: open sans;
+@verb-page-font-weight: 400; 
+@verb-page-font-size: 14px;
+@verb-page-font-color: @verb-primary-color;
+
+@verb-page-side-panel-section-background-color: @verb-background-color;
+@verb-page-side-panel-section-color: @verb-page-font-color;
+@verb-page-side-panel-section-color-hover: @verb-page-font-color;
+@verb-page-side-panel-section-header-color: @verb-font-accent-color;
+
+@verb-profile-font-family: @verb-page-font-family;
+@verb-profile-font-weight: @verb-page-font-weight; 
+@verb-profile-font-size: @verb-page-font-size;
+@verb-profile-font-color: @verb-page-font-color;
+
+@verb-venture-font-family: @verb-page-font-family;
+@verb-venture-font-weight: @verb-page-font-weight; 
+@verb-venture-font-size: @verb-page-font-size;
+@verb-venture-font-color: @verb-page-font-color;
+
+@verb-modal-background-color: @verb-background-color;
